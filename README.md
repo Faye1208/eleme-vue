@@ -1,15 +1,21 @@
 # eleme-vue
 
-   vue practice project
-
-## Download
-
-    git clone git@github.com:Faye1208/eleme-vue.git
+>  vue practice project
 
 ## Build Setup
-    # install dependencies
-    npm install
-    
-    # serve at localhost:2223
-    npm run dev
-    
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:2223
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
