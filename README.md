@@ -1,6 +1,5 @@
 # eleme-vue
 
-    vue practice project
-----
+vue practice project
 
-    # Build Setup
+# Build Setup
