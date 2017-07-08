@@ -2,8 +2,9 @@
 
 vue practice project
 
-##Download
-    git clone 
+## Download
+
+    git clone git@github.com:Faye1208/eleme-vue.git
 
 ## Build Setup
     # install dependencies
