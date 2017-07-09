@@ -18,6 +18,12 @@
   const ALL = 2;
   export default{
     name: 'ratingselect',
+    data() {
+      return {
+        DataSelectType: this.selectType,
+        DataOnlyContent: this.onlyContent
+      };
+    },
     props: {
       ratings: {
         type: Array,
@@ -61,15 +67,15 @@
         if (!event._constructed) {
           return;
         }
-        this.selectType = type;
+        this.DataSelectType = type;
         this.$emit('ratingtype_select', type);
       },
       toggleContent(event) {
         if (!event._constructed) {
           return;
         }
-        this.onlyContent = !this.onlyContent;
-        this.$emit('content_toggle', this.onlyContent);
+        this.DataOnlyContent = !this.DataOnlyContent;
+        this.$emit('content_toggle', this.DataOnlyContent);
       }
     }
   };

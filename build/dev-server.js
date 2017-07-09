@@ -106,7 +106,9 @@ devMiddleware.waitUntilValid(function () {
   console.log('> Listening at ' + uri + '\n')
 });
 
-module.exports = app.listen(port, function (err) {
+const server = app.listen(port, (err) => {
+  server.keepAliveTimeout = 0;
+
   if (err) {
     console.log(err);
     return
